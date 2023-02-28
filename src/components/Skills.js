@@ -71,107 +71,104 @@ const SkillBars = () => {
                 })}
             </div>
             <h5>Other Tools</h5>
-            <div className="grid3">
-                <div>
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />
-                    Github
+            <div>
+                <h5>HTML</h5>
+                <div className="d-flex">
+                    <div>
+                        <img
+                            src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+                            alt=""
+                            width={100}
+                            height={100}
+                        />
+                        HTML5
+                    </div>
+                    <div>
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                            alt=""
+                            width={100}
+                            height={100}
+                        />
+                        ReactJs
+                    </div>
                 </div>
-                <div>
-                    {" "}
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />
-                    VsCode
-                </div>
-                <div>
-                    <img
-                        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />{" "}
-                    Postman
-                </div>
-                <div>
-                    <img
-                        src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />{" "}
-                    HTML5
-                </div>
-
-                <div>
+                <h5>CSS</h5>
+                <div className="d-flex">
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
                         alt=""
                         width={100}
                         height={100}
-                    />{" "}
+                    />
                     CSS3
+                    <img
+                        src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
                 </div>
-                <div>
+                <h5>FrontEnd</h5>{" "}
+                <div className="d-flex">
                     <img
                         src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
                         alt=""
                         width={100}
                         height={100}
                     />{" "}
-                    Javascript
-                </div>
-                <div>
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                         alt=""
                         width={100}
                         height={100}
-                    />{" "}
+                    />
                     ReactJs
                 </div>
-                <div>
-                    <img
-                        src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />{" "}
-                    Bootstrap
-                </div>
-                <div>
+                <h5>Backend</h5>
+                <div className="d-flex">
                     <img
                         src="https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg"
                         alt=""
                         width={100}
                         height={100}
-                    />{" "}
-                    NodeJs
-                </div>
-                <div>
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
-                        alt=""
-                        width={100}
-                        height={100}
-                    />{" "}
-                    Python
-                </div>
-                <div>
+                    />
                     <img
                         src="https://www.svgrepo.com/show/353657/django-icon.svg"
                         alt=""
                         width={100}
                         height={100}
-                    />{" "}
-                    Django
+                    />
+                </div>
+                <h5>Databases</h5>
+                <h5>Others</h5>
+                <div className="d-flex">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png"
+                        alt=""
+                        // width={100}
+                        // height={100}
+                    />
+                    <img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
+
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
+
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
                 </div>
             </div>
             <h1>Resume</h1>
