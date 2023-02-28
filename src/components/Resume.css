@@ -1,0 +1,196 @@
+ul.experience {
+    margin: 20px 0 50px;
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 50px;
+    width: 100%;
+}
+ul.experience li {
+    position: relative;
+    margin-left: 10px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+ul li span.line-left {
+    width: 2px;
+    height: 100%;
+    background-color: #e1e1e1;
+    left: -10px;
+    top: 0;
+    position: absolute;
+    background-color: #00a3e1 !important;
+}
+ul li .line-left::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    position: absolute;
+    left: -4px;
+    top: -10px;
+    border-color: #00a3e1 !important;
+}
+ul li .line-left::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    position: absolute;
+    left: -4px;
+    top: 100%;
+    border-color: #00a3e1 !important;
+}
+.content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.content h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00a3e1;
+}
+.content p.info {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+p {
+    line-height: 1.65;
+}
+span {
+    display: inline-block;
+}
+.experience span.year,
+.education span.year {
+    height: 100%;
+    left: -10px;
+    top: 0;
+    position: absolute;
+}
+.experience span.year span,
+.education span.year span {
+    font-size: 16px;
+    position: absolute;
+    -webkit-transform: translateX(-120%);
+    -ms-transform: translateX(-120%);
+    transform: translateX(-120%);
+    color: #00a3e1;
+}
+
+.experience span.year span.to,
+.education span.year span.to {
+    top: -18px;
+}
+.experience span.year span.from,
+.education span.year span.from {
+    bottom: -18px;
+}
+
+ul.education {
+    margin: 20px 0 50px;
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 50px;
+    width: 100%;
+}
+ul.education li {
+    position: relative;
+    margin-left: 10px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+ul.education li span.line-left {
+    width: 2px;
+    height: 100%;
+    background-color: #e1e1e1;
+    left: -10px;
+    top: 0;
+    position: absolute;
+}
+ul.education li span.line-left::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    position: absolute;
+    left: -4px;
+    top: -10px;
+}
+ul.education li span.line-left::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    position: absolute;
+    left: -4px;
+    top: 100%;
+    border-color: #00a3e1 !important;
+}
+.education .content {
+    margin-left: 10px;
+}
+
+ul.education li:not(:first-child),
+ul.experience li:not(:first-child) {
+    margin-top: 60px;
+}
+
+.subheading h5 {
+    text-transform: uppercase;
+}
+.subheading {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.subheading h5 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    border-color: #00a3e1 !important;
+}
+.subheading h5::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    left: 0;
+    background-color: #00a3e1;
+}
+.subheading h5::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    right: 0;
+    background-color: #00a3e1;
+}
