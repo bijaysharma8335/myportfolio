@@ -4,6 +4,10 @@ body {
         "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    color: #e1e1e1;
+    background-color: #08111a;
 }
 
 code {
@@ -13,4 +17,21 @@ code {
 .form-select,
 .accordion-button {
     box-shadow: unset !important;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+input,
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
