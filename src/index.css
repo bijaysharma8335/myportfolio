@@ -35,3 +35,19 @@ button {
     font-size: inherit;
     line-height: inherit;
 }
+.tools div img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+}
+
+@media screen and(max-width:600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+

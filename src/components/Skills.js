@@ -46,8 +46,8 @@ const SkillBars = () => {
     ]);
 
     return (
-        <Container>
-            <div className={"col-12 col-sm-12 col-md-12 col-lg-6 wow fadeIn"}>
+        <Container className="my-2">
+            {/* <div className={"col-12 col-sm-12 col-md-12 col-lg-6 wow fadeIn"}>
                 <h1>Coding Skills</h1>
                 {technologies.map((tech, index) => {
                     return (
@@ -63,15 +63,16 @@ const SkillBars = () => {
                                 aria-valuemin="0"
                                 aria-valuemax="100"
                             >
-                                {tech.name} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{" "}
+                                {tech.name} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                 {tech.percentage + "%"}
                             </div>
                         </div>
                     );
                 })}
-            </div>
-            <h5>Other Tools</h5>
-            <div>
+            </div> */}
+            <h3>SKILLS</h3>
+            <div className="tools">
+                <hr />
                 <h5>HTML</h5>
                 <div className="d-flex">
                     <div>
@@ -81,18 +82,16 @@ const SkillBars = () => {
                             width={100}
                             height={100}
                         />
-                        HTML5
-                    </div>
-                    <div>
+
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                             alt=""
                             width={100}
                             height={100}
                         />
-                        ReactJs
                     </div>
                 </div>
+                <hr />
                 <h5>CSS</h5>
                 <div className="d-flex">
                     <img
@@ -101,7 +100,7 @@ const SkillBars = () => {
                         width={100}
                         height={100}
                     />
-                    CSS3
+
                     <img
                         src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
                         alt=""
@@ -109,22 +108,23 @@ const SkillBars = () => {
                         height={100}
                     />
                 </div>
-                <h5>FrontEnd</h5>{" "}
+                <hr />
+                <h5>FrontEnd</h5>
                 <div className="d-flex">
                     <img
                         src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
                         alt=""
                         width={100}
                         height={100}
-                    />{" "}
+                    />
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                         alt=""
                         width={100}
                         height={100}
                     />
-                    ReactJs
                 </div>
+                <hr />
                 <h5>Backend</h5>
                 <div className="d-flex">
                     <img
@@ -140,31 +140,44 @@ const SkillBars = () => {
                         height={100}
                     />
                 </div>
+                <hr />
                 <h5>Databases</h5>
+                <div>
+                    <img src="https://www.svgrepo.com/show/303232/mongodb-logo.svg" alt="" />
+                </div>
+                <hr />
+                <h5>Languages</h5>
+                <div>
+                    <img
+                        src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
+                </div>
+                <hr />
                 <h5>Others</h5>
                 <div className="d-flex">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png"
-                        alt=""
-                        // width={100}
-                        // height={100}
-                    />
                     <img
                         src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
                         alt=""
                         width={100}
                         height={100}
                     />
-
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png"
                         alt=""
                         width={100}
                         height={100}
                     />
-
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png"
                         alt=""
                         width={100}
                         height={100}
@@ -177,9 +190,3 @@ const SkillBars = () => {
     );
 };
 export default SkillBars;
-// <div className="grid-container">
-// <div className="border  rounded">
-//     <SiHtml5 className=" " size="5em" style={{ color: "#FF5733" }} />
-//     <FaCss3Alt className=" " size="5em" style={{ color: " #2965f1" }} />
-// </div>
-// </div>
