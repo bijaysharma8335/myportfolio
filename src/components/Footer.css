@@ -1,0 +1,19 @@
+.footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-top: 1px solid #00a3e1 !important;
+    color: #e1e1e1;
+    background-color: #08111a;
+    z-index: 999;
+}

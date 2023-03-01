@@ -47,10 +47,10 @@ const Projects = () => {
         },
     ]);
     return (
-        <div className="projects p-2">
+        <div className="projects p-2"style={{marginBottom:"5%"}}>
             {projects.map((project, index) => {
                 return (
-                    <div className="border rounded p-2 ">
+                    <div className="border rounded p-2 my-2 ">
                         <Image
                             src={project.image}
                             style={{ objectFit: "cover" }}

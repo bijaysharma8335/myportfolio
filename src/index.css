@@ -44,10 +44,48 @@ button {
     display: grid;
     grid-template-columns: repeat(24, 1fr);
 }
-
+.subheading h5 {
+    text-transform: uppercase;
+}
+.subheading {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.subheading h5 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    border-color: #00a3e1 !important;
+}
+.subheading h5::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    left: 0;
+    background-color: #00a3e1;
+}
+.subheading h5::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    right: 0;
+    background-color: #00a3e1;
+}
 @media screen and(max-width:600px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
