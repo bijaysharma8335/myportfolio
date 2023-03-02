@@ -2,7 +2,7 @@ import React from "react";
 import "./Resume.css";
 const Resume = () => {
     return (
-        <div className="row">
+        <div className="row mb-4">
             <div className="col-md-6">
                 <div className="subheading">
                     <h5>Experience</h5>

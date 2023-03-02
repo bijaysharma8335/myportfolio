@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Button, Image } from "react-bootstrap";
+import { Button, Card, Container, Image } from "react-bootstrap";
 import "./Projects.css";
 const Projects = () => {
     const [projects, setProjects] = useState([
@@ -37,47 +37,41 @@ const Projects = () => {
                 "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
             github: "https://github.com/bijaysharma8335/Ecommerce-MERN",
         },
-        {
-            name: "Blogging Website",
-            percentage: 60,
-            image: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_576/https://www.iimtindia.net/Blog/wp-content/uploads/2021/05/Blogging-1024x576.jpg",
-            description:
-                "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
-            github: "https://github.com/bijaysharma8335/Ecommerce-MERN",
-        },
     ]);
     return (
-        <div className="projects p-2"style={{marginBottom:"5%"}}>
-            {projects.map((project, index) => {
-                return (
-                    <div className="border rounded p-2 my-2 ">
-                        <Image
-                            src={project.image}
-                            style={{ objectFit: "cover" }}
-                            alt=""
-                            className="d-block rounded my-2"
-                            width={400}
-                            height={200}
-                        />
-                        <h2 className="d-block">{project.name}</h2>
-                        <p className="text-secondary">{project.description}</p>
-                        <Button className="m-2 rounded" variant="primary">
-                            Live Preview
-                        </Button>
-                        <Button
-                            className="m-2 rounded"
-                            variant="dark"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href = project.github;
-                            }}
-                        >
-                            View On Github
-                        </Button>
-                    </div>
-                );
-            })}
-        </div>
+        <Container>
+            <div className="projects " style={{ marginBottom: "5%" }}>
+                {projects.map((project, index) => {
+                    return (
+                        <div className="border rounded my-2 p-2">
+                            <Image
+                                src={project.image}
+                                style={{ objectFit: "cover" }}
+                                alt=""
+                                className="d-block rounded my-2"
+                                width={200}
+                                height={200}
+                            />
+                            <h2 className="d-block">{project.name}</h2>
+                            <p className="text-secondary">{project.description}</p>
+                            <Button className="m-2 rounded" variant="primary">
+                                Live Preview
+                            </Button>
+                            <Button
+                                className="m-2 rounded"
+                                variant="dark"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = project.github;
+                                }}
+                            >
+                                View On Github
+                            </Button>
+                        </div>
+                    );
+                })}
+            </div>
+        </Container>
     );
 };
 

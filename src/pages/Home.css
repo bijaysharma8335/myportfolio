@@ -10,3 +10,47 @@
     border-radius: 999px;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
+.facebook:hover {
+    border-radius: 10%;
+    background-color: #fff;
+    color: blue;
+}
+
+.instagram:hover {
+    border-radius: 10%;
+    background-color: #fff;
+    color: #fb3958;
+}
+
+.github:hover {
+    border-radius: 10%;
+    background-color: #fff;
+    color: #171515;
+}
+
+.linkedin:hover {
+    border-radius: 10%;
+    background-color: #fff;
+    color: #0077b5;
+}
+.search:hover {
+    background-color: #fff;
+    color: #44b7ff;
+}
+.container {
+    margin-top: 87px !important;
+}
+.btn-cv {
+    margin-top: 20px;
+}
+.btn-cv button {
+    padding: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(20, 15, 15);
+    box-shadow: 0 12px 16px 0 rgba(214, 210, 210, 0.24), 0 17px 50px 0 rgba(231, 224, 224, 0.19);
+}
+.btn-cv button:hover {
+    color: #fffdfd;
+    background-color: rgb(55, 51, 51);
+}

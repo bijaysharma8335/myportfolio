@@ -84,8 +84,25 @@ button {
     right: 0;
     background-color: #00a3e1;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    opacity: 1;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
 @media screen and(max-width:600px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+  
 }

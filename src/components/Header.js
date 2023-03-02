@@ -67,27 +67,27 @@ const Header = () => {
                 <div className="navigation">
                     <ul>
                         <li>
-                            <Link className="content" to="/">
+                            <Link className="header-content" to="/">
                                 <BiHome className="me-2" />
-                                <h4> Home</h4>
+                                <h2> Home</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="content" to="/skills">
+                            <Link className="header-content" to="/skills">
                                 <FaUserAlt className="me-2" />
-                                <h4>About</h4>
+                                <h2>About</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="content me-1" to="/projects">
+                            <Link className="header-content me-1" to="/projects">
                                 <GrProjects className="me-2 " />
-                                <h4> Projects</h4>
+                                <h2> Projects</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="content" to="/contact">
+                            <Link className="header-content" to="/contact">
                                 <MdPermContactCalendar className="me-2" />
-                                <h4>Contact</h4>
+                                <h2>Contact</h2>
                             </Link>
                         </li>
                     </ul>

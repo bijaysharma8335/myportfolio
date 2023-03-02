@@ -47,7 +47,7 @@ const SkillBars = () => {
 
     return (
         <Container className="my-2">
-            <div className={"col-12 col-sm-12 col-md-12 col-lg-6  "}>
+            {/* <div className={"col-12 col-sm-12 col-md-12 col-lg-6  "}>
                 <div className="subheading">
                     {" "}
                     <h5>Coding Skills</h5>
@@ -73,8 +73,8 @@ const SkillBars = () => {
                         </div>
                     );
                 })}
-            </div>
-            <hr />
+            </div> */}
+            
             <div className="subheading">
                 <h5>SKILLS</h5>
             </div>
