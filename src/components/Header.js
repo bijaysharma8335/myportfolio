@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MdPermContactCalendar } from "react-icons/md";
-import { BiHome } from "react-icons/bi";
 import "./Header.css";
 import { FaUserAlt } from "react-icons/fa";
-import { GrProjects } from "react-icons/gr";
+import { TfiLayoutGrid2 } from "react-icons/tfi";
+import { AiOutlineHome } from "react-icons/ai";
 // const Header = () => {
 //     return (
 //         <div className="header-main">
@@ -68,26 +68,26 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link className="header-content" to="/">
-                                <BiHome className="me-2" />
-                                <h2> Home</h2>
+                                <AiOutlineHome className="me-2 icon" />
+                                <h2 className="mt-2 icon"> Home</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="header-content" to="/skills">
-                                <FaUserAlt className="me-2" />
-                                <h2>About</h2>
+                            <Link className="header-content " to="/skills">
+                                <FaUserAlt className="me-2 icon" />
+                                <h2 className="mt-2">About</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="header-content me-1" to="/projects">
-                                <GrProjects className="me-2 " />
-                                <h2> Projects</h2>
+                            <Link className="header-content me-1 " to="/projects">
+                                <TfiLayoutGrid2 className="me-2 icon" />
+                                <h2 className="mt-2"> Projects</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link className="header-content" to="/contact">
-                                <MdPermContactCalendar className="me-2" />
-                                <h2>Contact</h2>
+                            <Link className="header-content " to="/contact">
+                                <MdPermContactCalendar className="me-2 icon" />
+                                <h2 className="mt-2">Contact</h2>
                             </Link>
                         </li>
                     </ul>

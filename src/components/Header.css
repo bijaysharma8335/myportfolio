@@ -80,16 +80,22 @@ img {
 .rnavigation {
     align-items: flex-end;
 }
-.header .navigation a.header-content {
-    color: #e1e1e1;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
 
+.header .navigation a.header-content h2 {
+    font-size: 20px;
+}
+.header .navigation a.header-content .icon {
+    font-size: 20px;
+}
 @media screen and (max-width: 600px) {
-    .header .navigation ul li  a.header-content h2 {
+    .header .navigation ul li a.header-content h2 {
         display: none;
+    }
+    .header .navigation a.header-content {
+        margin-top: 20px;
+    }
+    .header .navigation a.header-content:hover {
+        margin: 10px;
     }
 }
 .header {
@@ -97,13 +103,13 @@ img {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #fff !important;
+    background-color: #08111a !important;
     opacity: 1;
     width: 100%;
     height: 60px;
     position: fixed !important;
     top: 0 !important;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #00a3e1;
     z-index: 99;
 }
 .navigation {
@@ -112,16 +118,18 @@ img {
     width: fit-content;
     margin-left: auto;
     height: 100%;
+    height: 59px;
     margin-right: 10px;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #fff !important;
+    color: #fff;
+    background-color: #08111a !important;
     opacity: 1;
 }
 .header .navigation ul {
-    margin-top: 4%;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -133,13 +141,21 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     height: 100% !important;
-    color: #000 !important;
+    color: #000;
     text-decoration: none;
 }
 .header-content > h2 {
     font-size: 18px;
     margin-left: 5px !important;
 }
-.header .navigation ul li a.header-content:hover {
-    color: blue;
+.header .navigation a.header-content {
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .navigation a.header-content:hover {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid red;
 }

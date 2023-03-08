@@ -1,16 +1,43 @@
-.home-icons {
+.social-icons {
+    margin: 1.5rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 1rem;
 }
-
-.home > img {
-    margin: auto;
-    width: 35%;
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    background-color: rgb(2, 0, 0);
+    color: #5f5858;
+}
+.social-icon:hover {
+    background-color: #000;
+    color: #fff;
+}
+.home {
+    margin-top: 10rem;
+}
+.home-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.home-body p {
+    color: rgb(234, 234, 240);
+    text-indent: 0px;
+}
+.home .container .row img {
+    margin-top: 2rem;
+    width: 90%;
     object-fit: contain;
     border-radius: 999px;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
-.facebook:hover {
+/* .facebook:hover {
     border-radius: 10%;
     background-color: #fff;
     color: blue;
@@ -32,7 +59,7 @@
     border-radius: 10%;
     background-color: #fff;
     color: #0077b5;
-}
+} */
 .search:hover {
     background-color: #fff;
     color: #44b7ff;
@@ -40,17 +67,27 @@
 .container {
     margin-top: 87px !important;
 }
-.btn-cv {
+/* .btn-cv {
     margin-top: 20px;
-}
+} */
 .btn-cv button {
+    margin: 1rem 0;
     padding: 8px;
     border: 1px solid #fff;
-    color: #fff;
-    background-color: rgb(20, 15, 15);
+    color: #000000;
+    background-color: rgb(245, 239, 239);
     box-shadow: 0 12px 16px 0 rgba(214, 210, 210, 0.24), 0 17px 50px 0 rgba(231, 224, 224, 0.19);
 }
 .btn-cv button:hover {
     color: #fffdfd;
     background-color: rgb(55, 51, 51);
+}
+@media screen and (max-width: 600px) {
+    .home {
+        width: 80%;
+        margin: 100px auto 10px;
+        margin-bottom: 69px;
+    }
+    .home .container .row img {
+    }
 }
