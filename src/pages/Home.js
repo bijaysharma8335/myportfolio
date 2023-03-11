@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-lg-6 ">
                         <div className="home-header">
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                         </div>
@@ -24,10 +24,10 @@ const Home = () => {
                         </div>
                         <div className="social-icons">
                             <Link
-                            // to={{
-                            //     pathname: "https://www.facebook.com/bijay.sharma.8335",
-                            // }}
-                            // target="_blank"
+                            to={{
+                                pathname: "https://www.facebook.com/bijay.sharma.8335",
+                            }}
+                            target="_blank"
                             >
                                 <GrFacebook className=" social-icon cursor-pointer" />
                             </Link>
@@ -45,7 +45,7 @@ const Home = () => {
                             <button>Download CV</button>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-lg-6 ">
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png"
                             alt=""

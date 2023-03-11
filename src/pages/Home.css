@@ -32,6 +32,7 @@
 }
 .home .container .row img {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 90%;
     object-fit: contain;
     border-radius: 999px;
@@ -82,12 +83,11 @@
     color: #fffdfd;
     background-color: rgb(55, 51, 51);
 }
+
 @media screen and (max-width: 600px) {
     .home {
         width: 80%;
         margin: 100px auto 10px;
-        margin-bottom: 69px;
-    }
-    .home .container .row img {
+        margin-bottom: 2rem;
     }
 }
