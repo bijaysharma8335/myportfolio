@@ -10,24 +10,23 @@ const Home = () => {
         <div className="home">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-lg-6 ">
+                    <div className="col-md-7 col-lg-7 ">
                         <div className="home-header">
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                         </div>
                         <div className="home-body">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                                temporibus illo consectetur aspernatur nobis autem sapiente velit
-                                asperiores sunt dolorem, pariatur totam vero obcaecati error quasi
-                                officiis saepe eaque eligendi.
+                                Hi! My name is Bijay Sharma, and I work as a Software Developer in
+                                Bengaluru, India. I design user interfaces with the MERN stack,
+                                Redux, and NodeJs.
                             </p>
                         </div>
-                        <div className="social-icons">
+                        <div className="social-icons me-5">
                             <Link
-                            to={{
-                                pathname: "https://www.facebook.com/bijay.sharma.8335",
-                            }}
-                            target="_blank"
+                                to={{
+                                    pathname: "https://www.facebook.com/bijay.sharma.8335",
+                                }}
+                                target="_blank"
                             >
                                 <GrFacebook className=" social-icon cursor-pointer" />
                             </Link>
@@ -45,7 +44,7 @@ const Home = () => {
                             <button>Download CV</button>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-6 ">
+                    <div className="col-md-5 col-lg-5 ">
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png"
                             alt=""

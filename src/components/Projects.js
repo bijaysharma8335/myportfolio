@@ -11,7 +11,7 @@ const Projects = () => {
 
             percentage: 70,
             description:
-                "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
+                "Admin Templates build using Reactjs Bootstrap Styled Components Redux react-redux ",
             github: "https://github.com/bijaysharma8335/adminpanel",
             category: "Ecommerce",
             show: true,
@@ -21,7 +21,7 @@ const Projects = () => {
             percentage: 50,
             image: "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg",
             description:
-                "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
+                "Ecommerce Website build using Reactjs Bootstrap Styled Components Redux react-redux ",
             github: "https://github.com/bijaysharma8335/Ecommerce-MERN",
             category: "Ecommerce",
             show: true,
@@ -30,8 +30,7 @@ const Projects = () => {
             name: "Education Website",
             percentage: 60,
             image: "https://thumbs.dreamstime.com/b/education-study-books-high-school-university-16383080.jpg",
-            description:
-                "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
+            description: "Education Website build using Reactjs Bootstrap Redux react-redux ",
             github: "https://github.com/bijaysharma8335/Education-website-React",
             category: "Education",
             show: true,
@@ -41,7 +40,7 @@ const Projects = () => {
             percentage: 70,
             image: "https://mir-s3-cdn-cf.behance.net/projects/404/5be9b6162833263.Y3JvcCw5ODEsNzY4LDIxLDA.jpg",
             description:
-                "Admin Templates build usingReactjs Bootstrap Styled Components Redux react-redux ",
+                "Youtube clone build using Reactjs Bootstrap Styled Components Redux react-redux Firebase ",
             category: "Social",
             github: "https://github.com/bijaysharma8335/Ecommerce-MERN",
             show: true,
@@ -67,7 +66,7 @@ const Projects = () => {
                             <>
                                 {project.show && (
                                     <div
-                                        className="project"
+                                        className="project "
                                         onClick={() => handleProjectClick(project)}
                                         key={index}
                                     >
@@ -80,8 +79,8 @@ const Projects = () => {
                                             height={100}
                                         />
                                         {/* <div className="ms-5"> */}
-                                            <h4 className=" mt-3 ms-5">{project.name}</h4>
-                                            {/* <h5 className="text-dark">{project.category}</h5> */}
+                                        <h4 className=" mt-3 ">{project.name}</h4>
+                                        {/* <h5 className="text-dark">{project.category}</h5> */}
                                         {/* </div> */}
                                     </div>
                                 )}
@@ -92,36 +91,25 @@ const Projects = () => {
                                             style={{ objectFit: "cover", borderRadius: "50%" }}
                                             alt=""
                                             className=" my-2"
-                                            width={250}
-                                            height={250}
+                                            width={230}
+                                            height={230}
                                         />
 
                                         <h4 className=" text-center">{project.name}</h4>
-                                        <p className="text-secondary mx-2">{project.description}</p>
-                                        <button className="btn btn-light w-50 my-2">
+                                        <p className="text-secondary  text-center">
+                                            {project.description}
+                                        </p>
+                                        <button className="btn btn-light w-50 my-2 rounded-pill">
                                             Visit Site
                                         </button>
                                         <button
-                                            className="btn btn-dark w-50 my-2"
+                                            className="btn btn-dark w-50 my-3 rounded-pill"
                                             href={project.github}
                                             target="_blank"
                                         >
                                             View Github
                                         </button>
                                     </div>
-                                    // <Card className="my-3">
-                                    //     <Card.Img variant="top" src={project.image} />
-                                    //     <Card.Body>
-                                    //         <Card.Title>{project.name}</Card.Title>
-                                    //         <Card.Text>{project.description}</Card.Text>
-                                    //         <Button href={project.github} target="_blank">
-                                    //             GitHub
-                                    //         </Button>
-                                    //         <Button className="ms-3" variant="secondary">
-                                    //             Back to Projects
-                                    //         </Button>
-                                    //     </Card.Body>
-                                    // </Card>
                                 )}
                             </>
                         );
