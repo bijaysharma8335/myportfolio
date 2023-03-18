@@ -4,7 +4,7 @@ import { SiHtml5, SiPostman } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
 import Resume from "./Resume";
-
+import "./Skills.css";
 const SkillBars = () => {
     const [technologies, setTechnologies] = useState([
         {
@@ -74,7 +74,7 @@ const SkillBars = () => {
                     );
                 })}
             </div> */}
-            
+
             <div className="subheading">
                 <h5>SKILLS</h5>
             </div>
@@ -84,29 +84,27 @@ const SkillBars = () => {
                 <div>
                     <h5>HTML</h5>
 
-                    <div className="d-flex">
-                        <div>
-                            <img
-                                src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-                                alt=""
-                                width={100}
-                                height={100}
-                            />
+                    <div className="tools-list">
+                        <img
+                            src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+                            alt=""
+                            width={100}
+                            height={100}
+                        />
 
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-                                alt=""
-                                width={100}
-                                height={100}
-                            />
-                        </div>
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                            alt=""
+                            width={100}
+                            height={100}
+                        />
                     </div>
                 </div>
                 <hr />
                 <div>
                     <h5>CSS</h5>
 
-                    <div className="d-flex">
+                    <div className="tools-list">
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
                             alt=""
@@ -125,7 +123,7 @@ const SkillBars = () => {
                 <hr />
                 <div>
                     <h5>FrontEnd</h5>
-                    <div className="d-flex">
+                    <div className="tools-list">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
                             alt=""
@@ -143,7 +141,7 @@ const SkillBars = () => {
                 <hr />
                 <div>
                     <h5>Backend</h5>
-                    <div className="d-flex">
+                    <div className="tools-list">
                         <img
                             src="https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg"
                             alt=""
@@ -161,7 +159,7 @@ const SkillBars = () => {
                 <hr />
                 <div>
                     <h5>Databases</h5>
-                    <div>
+                    <div className="single-tool">
                         <img
                             src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
                             alt=""
@@ -173,7 +171,7 @@ const SkillBars = () => {
                 <hr />
                 <div>
                     <h5>Languages</h5>
-                    <div className="d-flex">
+                    <div className="tools-list">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
                             alt=""
@@ -191,7 +189,7 @@ const SkillBars = () => {
                 <hr />
                 <div>
                     <h5>Others</h5>
-                    <div className="d-flex">
+                    <div className="tools-list">
                         <img
                             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
                             alt=""
