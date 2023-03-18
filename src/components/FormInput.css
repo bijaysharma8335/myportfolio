@@ -11,7 +11,7 @@
     padding: 10px 10px 10px 7px;
     display: block;
     width: 100%;
-    border: 1px solid #fff;
+    border: 1px solid #00a3e1;
     border-radius: 3px;
     margin: 0 ;
 }
@@ -46,3 +46,6 @@
     color: white;
 }
 
+.form-input-textarea{
+    height: 200px;
+}

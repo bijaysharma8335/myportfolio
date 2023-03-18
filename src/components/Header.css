@@ -97,6 +97,12 @@ img {
     .header .navigation a.header-content:hover {
         margin: 10px;
     }
+    .header .navigation a.header-content {
+        margin-top: 12px;
+    }
+    .header .navigation a.header-content .icon {
+        font-size: 28px;
+    }
 }
 .header {
     display: -webkit-flex;
@@ -150,7 +156,7 @@ img {
 }
 .header .navigation a.header-content {
     color: #fff;
-    margin-top: 20px;
+    margin-top: 12px;
     display: flex;
     justify-content: space-between;
 }
