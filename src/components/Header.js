@@ -68,25 +68,25 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link className="header-content" to="/">
-                                <AiOutlineHome className="me-2 icon" />
+                                <AiOutlineHome className="mx-auto icon" />
                                 <h2 className="mt-2 icon"> Home</h2>
                             </Link>
                         </li>
                         <li>
                             <Link className="header-content " to="/skills">
-                                <FaUserAlt className="me-2 icon" />
+                                <FaUserAlt className="mx-auto icon" />
                                 <h2 className="mt-2">About</h2>
                             </Link>
                         </li>
                         <li>
                             <Link className="header-content me-1 " to="/projects">
-                                <TfiLayoutGrid2 className="me-2 icon" />
+                                <TfiLayoutGrid2 className="mx-auto icon" />
                                 <h2 className="mt-2"> Projects</h2>
                             </Link>
                         </li>
                         <li>
                             <Link className="header-content " to="/contact">
-                                <MdPermContactCalendar className="me-2 icon" />
+                                <MdPermContactCalendar className="mx-auto icon" />
                                 <h2 className="mt-2">Contact</h2>
                             </Link>
                         </li>

@@ -91,15 +91,19 @@ img {
     .header .navigation ul li a.header-content h2 {
         display: none;
     }
-    .header .navigation a.header-content {
+    .header .navigation ul li {
+        height: 42px;
+        margin: -22px 10px 0px 10px;
+    }
+    /* .header .navigation .header-content {
         margin-top: 20px;
-    }
-    .header .navigation a.header-content:hover {
-        margin: 10px;
-    }
-    .header .navigation a.header-content {
+    } */
+    /* .header .navigation a.header-content:hover {
+        margin: 12px;
+    } */
+    /* .header .navigation a.header-content {
         margin-top: 12px;
-    }
+    } */
     .header .navigation a.header-content .icon {
         font-size: 28px;
     }
@@ -156,7 +160,7 @@ img {
 }
 .header .navigation a.header-content {
     color: #fff;
-    margin-top: 12px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
